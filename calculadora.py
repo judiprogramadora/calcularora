@@ -6,7 +6,7 @@ def multiplicacion(n1,n2):
     return (n1* n2)
 def division (n1,n2):
     if (n2== 0):
-        return( print( "no se puede dividir entre 0"))
+        return( "no se puede dividir entre 0")
     else:
         return (n1/ n2)    
 
@@ -14,9 +14,9 @@ def division (n1,n2):
 print("ingrese que operacion")
 print( "1- suma") 
 print ("2- resta") 
-print( "3-multiplicacion")
-print( "4 - division") 
-print(" 0 para salir")
+print("3- multiplicacion")
+print("4 - division") 
+print("0- para salir")
     
 opcion = int(input("eliga un opcion "))
 while( opcion!=0):
